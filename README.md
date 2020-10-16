@@ -59,10 +59,19 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+### Deployment resource info
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Deployment
+
+npm run predeploy <- script in package.json
+
+## Prod deployment 
+
+npm run deploy <- pushes to the github pages
