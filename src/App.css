@@ -1,5 +1,6 @@
 body {
-    background-color: #093145;
+    /* background-color: #093145; */
+    background-color: grey;
     margin: 0px;
     padding: 0px;
 }
@@ -36,7 +37,7 @@ h1, h3, h4 {
     align-content: auto;
   }
 
-.buton {
+.button {
     position: relative;
     text-decoration: none;
     border-radius: 20px;
@@ -52,18 +53,18 @@ h1, h3, h4 {
     /* border: 2px solid purple; */
   }
 
-  .buton span {
+  .button span {
     color: #164ca7;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.7px;
   }
     
-  .buton:hover {
+  .button:hover {
     animation: rotate 0.7s ease-in-out both;
   }
     
-  .buton:hover span {
+  .button:hover span {
     animation: storm 0.7s ease-in-out both;
     animation-delay: 0.06s;
   }
@@ -138,6 +139,10 @@ a.github {
   }
 
 a.medium {
+    color:#eee;
+  }
+
+  a.mail {
     color:#eee;
   }
 

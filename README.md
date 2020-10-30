@@ -62,6 +62,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 ### Deployment resource info
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+https://medium.com/mobile-web-dev/how-to-build-and-deploy-a-react-app-to-github-pages-in-less-than-5-minutes-d6c4ffd30f14
 
 ### `npm run build` fails to minify
 
