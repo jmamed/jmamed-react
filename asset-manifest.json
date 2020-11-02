@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jmamed-react/static/css/main.292b1972.chunk.css",
-    "main.js": "/jmamed-react/static/js/main.709a5cbe.chunk.js",
-    "main.js.map": "/jmamed-react/static/js/main.709a5cbe.chunk.js.map",
+    "main.css": "/jmamed-react/static/css/main.79766314.chunk.css",
+    "main.js": "/jmamed-react/static/js/main.41505dca.chunk.js",
+    "main.js.map": "/jmamed-react/static/js/main.41505dca.chunk.js.map",
     "runtime-main.js": "/jmamed-react/static/js/runtime-main.4f20a034.js",
     "runtime-main.js.map": "/jmamed-react/static/js/runtime-main.4f20a034.js.map",
     "static/js/2.cd052cde.chunk.js": "/jmamed-react/static/js/2.cd052cde.chunk.js",
     "static/js/2.cd052cde.chunk.js.map": "/jmamed-react/static/js/2.cd052cde.chunk.js.map",
     "index.html": "/jmamed-react/index.html",
-    "precache-manifest.a2b33bc65b6db08af264c51113195903.js": "/jmamed-react/precache-manifest.a2b33bc65b6db08af264c51113195903.js",
+    "precache-manifest.8cdecb5a02d0fc9e77b7ea2723e48e1c.js": "/jmamed-react/precache-manifest.8cdecb5a02d0fc9e77b7ea2723e48e1c.js",
     "service-worker.js": "/jmamed-react/service-worker.js",
-    "static/css/main.292b1972.chunk.css.map": "/jmamed-react/static/css/main.292b1972.chunk.css.map",
+    "static/css/main.79766314.chunk.css.map": "/jmamed-react/static/css/main.79766314.chunk.css.map",
     "static/js/2.cd052cde.chunk.js.LICENSE.txt": "/jmamed-react/static/js/2.cd052cde.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4f20a034.js",
     "static/js/2.cd052cde.chunk.js",
-    "static/css/main.292b1972.chunk.css",
-    "static/js/main.709a5cbe.chunk.js"
+    "static/css/main.79766314.chunk.css",
+    "static/js/main.41505dca.chunk.js"
   ]
 }
