@@ -119,6 +119,14 @@ h1, h3, h4 {
     align-content: center;
   }
 
+.resume-container {
+  /* background: #eee; */
+  padding: 1px 1px;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+
 a.social {
     margin: 0 1rem;
     align-items: center;
@@ -148,4 +156,13 @@ a.medium {
 
 a.social:hover {
     transform: translateY(-2px);
+  }
+
+  span.separator{
+    display: block;
+    background: inherit;
+    padding: 10px 0 0 0;
+    border: none;
+    margin: 9px 0 0 0;
+    /* background-color: yellow; */
   }
