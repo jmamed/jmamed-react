@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8d9642a7a032980168cd55929bcbb68",
+    "revision": "9006a59a9533da103c26a39f49f8c748",
     "url": "/jmamed-react/index.html"
   },
   {
-    "revision": "8738a74b6862c8169c43",
-    "url": "/jmamed-react/static/css/main.79766314.chunk.css"
+    "revision": "0d6ff7f91b6f9bd02390",
+    "url": "/jmamed-react/static/css/main.9dcc5735.chunk.css"
   },
   {
     "revision": "defcde480e62eed8ac8b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jmamed-react/static/js/2.cd052cde.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8738a74b6862c8169c43",
-    "url": "/jmamed-react/static/js/main.41505dca.chunk.js"
+    "revision": "0d6ff7f91b6f9bd02390",
+    "url": "/jmamed-react/static/js/main.f6e29f8d.chunk.js"
   },
   {
     "revision": "1a621d843cc70dfcb939",
