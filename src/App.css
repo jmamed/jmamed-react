@@ -1,13 +1,15 @@
 body {
-    /* background-color: #093145; */
-    background-color: grey;
-    margin: 0px;
-    padding: 0px;
+  /* background-color: #093145; */
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
 }
 
-h1, h3, h4 {
-    color: #eee;
-    font: monospace;
+h1,
+h3,
+h4 {
+  color: #eee;
+  font: monospace;
 }
 
 /* h3 {
@@ -16,110 +18,116 @@ h1, h3, h4 {
 
 
 .app {
-    height: 100%;
-    justify-content: center;
-    align-items: auto;
-    text-align: center;
-    text-emphasis-color: #eee;
-  }
+  height: 100%;
+  justify-content: center;
+  align-items: auto;
+  text-align: center;
+  text-emphasis-color: #eee;
+}
 
-  .card {
-    background: #eee;
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 25px;
-    padding: 5%;
-    box-shadow: 10px 10px;
-    align-self: start;
-    align-content: auto;
-  }
+.card {
+
+  background: #eee;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 30%;
+  padding-right: 30%;
+  box-shadow: 10px 10px;
+  align-self: start;
+  /* align-content: auto; */
+
+}
 
 .button {
-    position: relative;
-    text-decoration: none;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    height: auto;
-    width: auto;
-    opacity: 10;
-    background-color: #093145;
-    /* border: 2px solid purple; */
+  position: relative;
+  text-decoration: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: auto;
+  width: auto;
+  opacity: 10;
+  background-color: #093145;
+  /* border: 2px solid purple; */
+}
+
+.button span {
+  color: #164ca7;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.button:hover {
+  animation: rotate 0.7s ease-in-out both;
+}
+
+.button:hover span {
+  animation: storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
   }
 
-  .button span {
-    color: #164ca7;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.7px;
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
   }
-    
-  .button:hover {
-    animation: rotate 0.7s ease-in-out both;
+
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
   }
-    
-  .button:hover span {
-    animation: storm 0.7s ease-in-out both;
-    animation-delay: 0.06s;
+
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
   }
-    
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg) translate3d(0, 0, 0);
-    }
-    25% {
-      transform: rotate(3deg) translate3d(0, 0, 0);
-    }
-    50% {
-      transform: rotate(-3deg) translate3d(0, 0, 0);
-    }
-    75% {
-      transform: rotate(1deg) translate3d(0, 0, 0);
-    }
-    100% {
-      transform: rotate(0deg) translate3d(0, 0, 0);
-    }
+
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
   }
-    
-  @keyframes storm {
-    0% {
-      transform: translate3d(0, 0, 0) translateZ(0);
-    }
-    25% {
-      transform: translate3d(4px, 0, 0) translateZ(0);
-    }
-    50% {
-      transform: translate3d(-3px, 0, 0) translateZ(0);
-    }
-    75% {
-      transform: translate3d(2px, 0, 0) translateZ(0);
-    }
-    100% {
-      transform: translate3d(0, 0, 0) translateZ(0);
-    }
-  }  
-  
-  @media only screen and (max-width: 600px) {
-    .card {
-        height: 30%;
-    }
+}
+
+@keyframes storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
   }
+
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    height: 30%;
+    padding: 5%;
+  }
+}
 
 .social-container {
-    /* background: #eee; */
-    padding: 1px 1px;
-    margin: 0 auto;
-    text-align: center;
-    align-content: center;
-  }
-
-.resume-container {
   /* background: #eee; */
   padding: 1px 1px;
   margin: 0 auto;
@@ -127,42 +135,56 @@ h1, h3, h4 {
   align-content: center;
 }
 
+.resume-container {
+  /* background: #eee; */
+  padding: 1px 1px;
+  margin: 0 auto;
+  text-align: left;
+  align-content: center;
+}
+
 a.social {
-    margin: 0 1rem;
-    align-items: center;
-    transition: transform 250ms;
-    display: inline-block;
-  }
+  margin: 0 1rem;
+  align-items: center;
+  transition: transform 250ms;
+  display: inline-block;
+}
 
 a.twitter {
-    color: #eee;
-  }
+  color: #eee;
+}
 
 a.linkedin {
-    color: #eee;
-  }
+  color: #eee;
+}
 
 a.github {
-    color: #eee;
-  }
+  color: #eee;
+}
 
 a.medium {
-    color:#eee;
-  }
+  color: #eee;
+}
 
-  a.mail {
-    color:#eee;
-  }
+a.mail {
+  color: #eee;
+}
 
 a.social:hover {
-    transform: translateY(-2px);
-  }
+  transform: translateY(-2px);
+}
 
-  span.separator{
-    display: block;
-    background: inherit;
-    padding: 10px 0 0 0;
-    border: none;
-    margin: 9px 0 0 0;
-    /* background-color: yellow; */
-  }
+/* resuable span seperator to create artificial space */
+span.separator {
+  display: block;
+  background: inherit;
+  padding: 10px 0 0 0;
+  border: none;
+  margin: 9px 0 0 0;
+  /* background-color: yellow; */
+}
+
+.title {
+  color: black;
+
+}

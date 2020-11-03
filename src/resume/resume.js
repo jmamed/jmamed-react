@@ -3,10 +3,10 @@ import React from "react";
 export default function ResumePage() {
   return (
     <div className="resume-container">
-      <h1>Professional Experience WIP</h1>
+      <h1 className="title">Professional Experience WIP</h1>
       <div id="current-job">
         <h2>Citigroup or TCS</h2>
-        <h4>Software Engineer Consultant</h4>
+        <h4 className="title">Software Engineer Consultant</h4>
         <h5>July 2018 to Present</h5>
         <ul>
           <li>Primarily developed application features and enhancements for 
@@ -21,7 +21,7 @@ export default function ResumePage() {
       </div>
       <div id="past-jobs">
         <h2>Office of Research Commercialization @ Texas Tech University</h2>
-        <h4>IP Analyst Intern</h4>
+        <h4 className="title">IP Analyst Intern</h4>
         <h5>July 2017 to February 2018</h5>
         <ul>
           <li>Reviewed patent applications and provided assessments to inventors and managers.</li>
@@ -30,7 +30,7 @@ export default function ResumePage() {
       </div>
       <div id="past-jobs">
         <h2>OneConnxt</h2>
-        <h4>Independent Network Consultant</h4>
+        <h4 className="title">Independent Network Consultant</h4>
         <h5>July 2014 to November 2016</h5>
         <ul>
           <li>Provided Front Line support with alert and email review, working remotely from Texas.</li>
@@ -41,16 +41,16 @@ export default function ResumePage() {
 
       </div>
       <div id="education">
-        <h1>Education</h1>
+        <h1 className="title">Education</h1>
         <div>
           <h2>Texas Tech University, Rawls College of Business</h2>
           <h5>2016 - 2018</h5>
-          <h4>Master of Business Administration - STEM</h4>
+          <h4 className="title">Master of Business Administration - STEM</h4>
         </div>
         <div>
           <h2>Texas Tech University, Whitacre College of Engineering</h2>
           <h5>2012 - 2016</h5>
-          <h4>Bachelor of Science, Computer Engineering</h4>
+          <h4 className="title">Bachelor of Science, Computer Engineering</h4>
         </div>
 
       </div>
