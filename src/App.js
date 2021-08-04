@@ -20,9 +20,8 @@ class App extends React.Component {
       <div>
         <div className="app">
           <h1>Welcome to Jason Mamed's React App</h1>
-          <h3>Learn about me</h3>
           <div className="card">
-            <a className="button" href="https://jmamed.github.io/jmamed/"><span><h4>Visit my Angular Website</h4></span></a>
+            <a className="button" href="https://jmamed.github.io/jmamed/"><span><h4 className="webButton">Angular Website</h4></span></a>
           </div>
           <span className="separator"></span>
           <div className="card">
@@ -33,7 +32,6 @@ class App extends React.Component {
           <SocialFollow />
         </footer>
       </div>
-
     );
   }
 }

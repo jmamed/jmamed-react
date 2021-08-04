@@ -3,19 +3,38 @@ import React from "react";
 export default function ResumePage() {
   return (
     <div className="resume-container">
-      <h1 className="title">Professional Experience WIP</h1>
+      <h1 className="title">Professional Experience</h1>
       <div id="current-job">
-        <h2>Citigroup or TCS</h2>
+        <h2>Tata Consultancy Services</h2>
         <h4 className="title">Software Engineer Consultant</h4>
         <h5>July 2018 to Present</h5>
         <ul>
-          <li>Primarily developed application features and enhancements for 
-            30+ retail partners who are partnered with one of America's biggest banking firms, 
-            generating 1.5 million daily users and accounting for 10% of the company's income.
+          <li>
+            Collaborated with a UI team of four developers developing application features such as geolocation, user web traffic tracking, and partner onboarding using the geolocation api and internal reporting suite. This application serves 78 million customer accounts and accounts for roughly 10% of one of America's largest banking firm's income.
           </li>
           <li>
-            Working in a primarily Angular environment, assisted in writing user stories in Kanban software
-            tools (primarily Jira), using scrum development practices to meet every requirement.
+            Worked in a Angular environment, assisted in writing user stories in the Kanban software tools Jira, using scrum development practices to meet every requirement.
+          </li>
+          <li>
+            Acted as scrum master for daily standups frequently and assisted in backlog grooming for upcoming enhancements, communicating heavily with business journey owners to understand and deliver on product requirements.
+          </li>
+          <li>
+            Updated the bank's consumer Angular framework from Angular 5.4 to Angular 7 to ensure industry best practices and security standards.
+          </li>
+          <li>
+            In coordination with adjacent teams, built test cases using unit testing tools (Karma and Jasmine), as well as working with analytics tools (Google Analytics) to enhance the UI/UX.
+          </li>
+          <li>
+            Used AXE accessibility checker to update ADA compliance throughout application to provide the best user experience without excluding any potential demographics.
+          </li>
+          <li>
+            Used the bank's internal content management system to maintain content for all 30+ retail partners.
+          </li>
+          <li>
+            Maintained the legacy consumer servicing application and built a new features carousel module on a Jade, Coffeescript, SASS, and JSP tech stack to market new features developed for the application.
+          </li>
+          <li>
+            Trained new hires on the various tech stack, including documenting procedures in Confluence to onboard members within a four week sprint.
           </li>
         </ul>
       </div>
