@@ -20,9 +20,11 @@ h4 {
 .app {
   height: 100%;
   justify-content: center;
-  align-items: auto;
+  /* align-items: auto; */
   text-align: center;
-  text-emphasis-color: #eee;
+  /* text-emphasis-color: #eee; */
+  background-color: #eee;
+  padding: 15px;
 }
 
 .card {
@@ -77,7 +79,11 @@ h4 {
 }
 
 .webButton{
-  padding: 5px;
+  padding: 10px;
+  font-size: 15px;
+  /* @media screen and (max-width: 750px) {
+    font-size: 15px;
+  } */
 }
 
 @keyframes rotate {
@@ -132,7 +138,7 @@ h4 {
 }
 
 .social-container {
-  /* background: #eee; */
+  background: #eee;
   padding: 1px 1px;
   margin: 0 auto;
   text-align: center;
@@ -141,7 +147,7 @@ h4 {
 
 .resume-container {
   /* background: #eee; */
-  padding: 1px 1px;
+  padding: 1px 5px;
   margin: 0 auto;
   text-align: left;
   align-content: center;
@@ -152,26 +158,31 @@ a.social {
   align-items: center;
   transition: transform 250ms;
   display: inline-block;
+  color: white;
+}
+
+.social-heading {
+  color: black;
 }
 
 a.twitter {
-  color: #eee;
+  color: #0056b3;
 }
 
 a.linkedin {
-  color: #eee;
+  color: #0056b3;
 }
 
 a.github {
-  color: #eee;
+  color: #0056b3;
 }
 
 a.medium {
-  color: #eee;
+  color: #0056b3;
 }
 
 a.mail {
-  color: #eee;
+  color: #0056b3;
 }
 
 a.social:hover {
@@ -190,5 +201,9 @@ span.separator {
 
 .title {
   color: black;
+}
 
+.navTitle{
+  color: black;
+  font-size: 20px;
 }

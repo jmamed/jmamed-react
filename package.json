@@ -12,9 +12,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^5.0.2",
     "react": "^16.14.0",
+    "react-bootstrap": "^2.0.0-beta.4",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.4.3",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,14 +33,16 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.3%",
+      "not ie 11",
       "not dead",
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
     ]
   },
   "devDependencies": {

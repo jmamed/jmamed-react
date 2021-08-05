@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ResumePage() {
   return (
-    <div className="resume-container">
+    <div className="resume-container card">
       <h1 className="title">Professional Experience</h1>
       <div id="current-job">
         <h2>Tata Consultancy Services</h2>

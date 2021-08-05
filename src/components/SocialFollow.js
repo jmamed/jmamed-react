@@ -15,7 +15,7 @@ import {
 export default function SocialFollow() {
   return (
     <div className="social-container">
-      <h3 className = "heading">Created by Jason Mamed</h3>
+      <h3 className = "social-heading">Created by Jason Mamed</h3>
         <a href="https://www.linkedin.com/in/jasonmamed"
             className="linkedin social">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
