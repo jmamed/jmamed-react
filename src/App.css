@@ -33,7 +33,7 @@ h4 {
   width: auto;
   height: auto;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   border-radius: 25px;
   padding-top: 2%;
@@ -58,7 +58,7 @@ h4 {
   height: auto;
   width: auto;
   opacity: 10;
-  background-color: #093145;
+  background-color: blue; /* #093145 */
   /* border: 2px solid purple; */
 }
 
@@ -147,7 +147,7 @@ h4 {
 
 .resume-container {
   /* background: #eee; */
-  padding: 1px 5px;
+  /* padding: 1px 5px; */
   margin: 0 auto;
   text-align: left;
   align-content: center;
@@ -206,4 +206,5 @@ span.separator {
 .navTitle{
   color: black;
   font-size: 20px;
+  margin-right: 20px;
 }
