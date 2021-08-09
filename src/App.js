@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { NoMatch } from './pages/NoMatch';
-import { TFTProject } from './pages/TFTProject';
+import { TFTProject } from './tft_wip_project/TFTProject';
 class App extends React.Component {
 
   // componentDidMount() { //ngoninit ish
@@ -28,7 +28,7 @@ class App extends React.Component {
           <div id="nav-router" className="navRouter">
             <Router>
               
-              {/* <div className="card">
+              {/* <div className="layout">
                 <a className="button" href="https://jmamed.github.io/jmamed/"><span><h4 className="webButton">Angular Website</h4></span></a>
               </div> */}
               <NavigationBar />

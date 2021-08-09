@@ -27,7 +27,7 @@ h4 {
   padding: 15px;
 }
 
-.card {
+.layout {
 
   background: #eee;
   width: auto;
@@ -131,7 +131,7 @@ h4 {
 }
 
 @media only screen and (max-width: 1024px) {
-  .card {
+  .layout {
     height: 30%;
     padding: 5%;
   }
@@ -148,7 +148,7 @@ h4 {
 .resume-container {
   /* background: #eee; */
   /* padding: 1px 5px; */
-  margin: 0 auto;
+  margin: 5px auto;
   text-align: left;
   align-content: center;
 }
