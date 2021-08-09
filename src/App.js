@@ -5,12 +5,13 @@ import SocialFollow from "./components/SocialFollow";
 import ResumePage from "./components/resume";
 import { NavigationBar } from './navbar/NavigationBar';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { NoMatch } from './pages/NoMatch';
 import { TFTProject } from './tft_wip_project/TFTProject';
-import { TFTNoMatch } from './tft_wip_project/tft_no_match';
+
 class App extends React.Component {
 
   // componentDidMount() { //ngoninit ish
@@ -27,15 +28,10 @@ class App extends React.Component {
       <React.Fragment>
         <div className="app">
           <div id="nav-router" className="navRouter">
+            {/* <Router basename={process.env.PUBLIC_URL}> */}
             <Router>
-              
-              {/* <div className="layout">
-                <a className="button" href="https://jmamed.github.io/jmamed/"><span><h4 className="webButton">Angular Website</h4></span></a>
-              </div> */}
               <NavigationBar />
-
               {/* <Sidebar /> */}
-
               <Switch>
                 <Route exact path="/jmamed-react" component={ResumePage} />
                 <Route path="/jmamed-react/tft" component={TFTProject} />
