@@ -16,11 +16,11 @@ export const TFTProject = () => (
     <Router>
       <TFTNavBar />
       <Switch>
-        <Route exact path="/tft" component={TFTHome} />
-        <Route path="/tftdummy" component={TFTHome} />
-        <Route path="/tftdummy" component={TFTHome} />
-        <Route path="/tftdummy" component={TFTHome} />
-        <Route path="/tftdummy" component={TFTHome} />
+        <Route exact path="/jmamed-react/tft" component={TFTHome} />
+        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
+        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
+        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
+        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
         <Route component={TFTNoMatch} />
       </Switch>
     </Router>

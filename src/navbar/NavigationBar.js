@@ -9,7 +9,7 @@ export const NavigationBar = () => (
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">
         <Nav.Item><Nav.Link href="/jmamed-react">Home</Nav.Link></Nav.Item> 
-        <Nav.Item><Nav.Link href="/tft">TFT WIP</Nav.Link></Nav.Item>
+        <Nav.Item><Nav.Link href="/jmamed-react/tft">TFT WIP</Nav.Link></Nav.Item>
         <a className="button" href="https://jmamed.github.io/jmamed/"><span><h4 className="webButton">Angular Website</h4></span></a>
       </Nav>
     </Navbar.Collapse>

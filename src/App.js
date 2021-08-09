@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { NoMatch } from './pages/NoMatch';
 import { TFTProject } from './tft_wip_project/TFTProject';
+import { TFTNoMatch } from './tft_wip_project/tft_no_match';
 class App extends React.Component {
 
   // componentDidMount() { //ngoninit ish
@@ -37,7 +38,8 @@ class App extends React.Component {
 
               <Switch>
                 <Route exact path="/jmamed-react" component={ResumePage} />
-                <Route path="/tft" component={TFTProject} />
+                <Route path="/jmamed-react/tft" component={TFTProject} />
+                <Route path="/jmamed-react/tftdummy" component={TFTProject} />
                 <Route component={NoMatch} />
               </Switch>
             </Router>
