@@ -6,8 +6,8 @@ import tftlogo from "../assets/tftpenguin.jpg";
 export default function TFTHome() {
   return (
     <div id="tft-home" className="tftcontainer">
-      {/* <div id="col1"> */}
-      <Card style={{ width: '18rem' }}>
+      {/* <div className="tftitem"> */}
+      <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} width="auto" height="auto"/>
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -24,7 +24,7 @@ export default function TFTHome() {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -41,7 +41,7 @@ export default function TFTHome() {
         </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -60,7 +60,7 @@ export default function TFTHome() {
       {/* </div> */}
 
       {/* <div id="col2"> */}
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -77,7 +77,7 @@ export default function TFTHome() {
         </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -94,7 +94,7 @@ export default function TFTHome() {
         </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -113,7 +113,7 @@ export default function TFTHome() {
       {/* </div> */}
 
       {/* <div id="col3"> */}
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -130,7 +130,7 @@ export default function TFTHome() {
         </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>EXTREMELY LONG TOURNAMENT NAME</Card.Title>
@@ -147,7 +147,7 @@ export default function TFTHome() {
         </Card.Body>
         </Card>
 
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '20rem' }}>
         <Card.Img variant="top" src={tftlogo} />
         <Card.Body>
           <Card.Title>New Tournament</Card.Title>

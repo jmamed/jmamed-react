@@ -13,14 +13,12 @@ const Wrapper = styled.div`
 export const TFTProject = () => (
   <Wrapper>
     <h2>TFT Project WIP</h2>
+    {/* <TFTNavBar /> */}
     <Router>
       <TFTNavBar />
       <Switch>
-        <Route exact path="/jmamed-react/tft" component={TFTHome} />
-        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
-        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
-        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
-        <Route path="/jmamed-react/tftdummy" component={TFTHome} />
+        <Route exact path="/jmamed-react/#/tft" component={TFTHome} />
+        <Route exact path="/jmamed-react/#/tft/dummy" component={TFTHome} />
         <Route component={TFTNoMatch} />
       </Switch>
     </Router>
