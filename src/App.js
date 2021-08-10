@@ -26,7 +26,7 @@ class App extends React.Component {
             <NavigationBar />
             {/* <Sidebar /> */}
             <Switch>
-              <Route exact path="/home" component={ResumePage} />
+              <Route exact path="/" component={ResumePage} />
               <Route exact path="/tft" component={TFTHome} />
               <Route exact path="/tft/dummy" component={TFTHome} />
               <Route component={NoMatch} />

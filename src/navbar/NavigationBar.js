@@ -5,12 +5,12 @@ import '../App.css';
 
 export const NavigationBar = () => (
   <Navbar expand="lg" bg="dark" variant="dark" className="app">
-    <Navbar.Brand href="/jmamed-react/#/home">Welcome to Jason Mamed's React App</Navbar.Brand>
+    <Navbar.Brand href="/jmamed-react/#/">Welcome to Jason Mamed's React App</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="me-auto">
         <Nav.Item>
-          <Nav.Link href="/jmamed-react/#/home">Home</Nav.Link>
+          <Nav.Link href="/jmamed-react/#/">Home</Nav.Link>
         </Nav.Item> 
         <Nav.Item>
           <Nav.Link href="/jmamed-react/#/tft">TFT Project Idea</Nav.Link>
