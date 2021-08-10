@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/jmamed-react/static/css/main.2503ef48.chunk.css",
-    "main.js": "/jmamed-react/static/js/main.7a773d3d.chunk.js",
-    "main.js.map": "/jmamed-react/static/js/main.7a773d3d.chunk.js.map",
+    "main.css": "/jmamed-react/static/css/main.f380e7dd.chunk.css",
+    "main.js": "/jmamed-react/static/js/main.2af27509.chunk.js",
+    "main.js.map": "/jmamed-react/static/js/main.2af27509.chunk.js.map",
     "runtime-main.js": "/jmamed-react/static/js/runtime-main.4f20a034.js",
     "runtime-main.js.map": "/jmamed-react/static/js/runtime-main.4f20a034.js.map",
     "static/css/2.4f9f0b12.chunk.css": "/jmamed-react/static/css/2.4f9f0b12.chunk.css",
     "static/js/2.2070d4df.chunk.js": "/jmamed-react/static/js/2.2070d4df.chunk.js",
     "static/js/2.2070d4df.chunk.js.map": "/jmamed-react/static/js/2.2070d4df.chunk.js.map",
     "index.html": "/jmamed-react/index.html",
-    "precache-manifest.b2b9ac3b667ca3bc7bfef2e115639c88.js": "/jmamed-react/precache-manifest.b2b9ac3b667ca3bc7bfef2e115639c88.js",
+    "precache-manifest.e8c0b437f8061d1f887a523b57941daf.js": "/jmamed-react/precache-manifest.e8c0b437f8061d1f887a523b57941daf.js",
     "service-worker.js": "/jmamed-react/service-worker.js",
     "static/css/2.4f9f0b12.chunk.css.map": "/jmamed-react/static/css/2.4f9f0b12.chunk.css.map",
-    "static/css/main.2503ef48.chunk.css.map": "/jmamed-react/static/css/main.2503ef48.chunk.css.map",
+    "static/css/main.f380e7dd.chunk.css.map": "/jmamed-react/static/css/main.f380e7dd.chunk.css.map",
     "static/js/2.2070d4df.chunk.js.LICENSE.txt": "/jmamed-react/static/js/2.2070d4df.chunk.js.LICENSE.txt",
     "static/media/tftpenguin.jpg": "/jmamed-react/static/media/tftpenguin.c6e1a213.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.4f20a034.js",
     "static/css/2.4f9f0b12.chunk.css",
     "static/js/2.2070d4df.chunk.js",
-    "static/css/main.2503ef48.chunk.css",
-    "static/js/main.7a773d3d.chunk.js"
+    "static/css/main.f380e7dd.chunk.css",
+    "static/js/main.2af27509.chunk.js"
   ]
 }
