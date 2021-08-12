@@ -1,4 +1,9 @@
 import React from "react";
+import { Card, Button, CardGroup } from "react-bootstrap";
+import TTULogo from "../assets/ttu-logo.svg";
+import TTUBusinessLogo from "../assets/ttu-bus-logo.png";
+import TTUEngineerLogo from "../assets/ttu-eng-logo.png";
+
 
 export default function ResumePage() {
   return (
@@ -57,21 +62,31 @@ export default function ResumePage() {
           <li>Contacted on-call engineers and given escalation call sheet if needed.</li>
           <li>Interacted with the CTO and other technicians to adjust shift times to accommodate personal schedules.</li>
         </ul>
-
       </div>
       <div id="education">
         <h1 className="title">Education</h1>
-        <div>
-          <h2>Texas Tech University, Rawls College of Business</h2>
-          <h5>2016 - 2018</h5>
-          <h4 className="title">Master of Business Administration - STEM</h4>
-        </div>
-        <div>
-          <h2>Texas Tech University, Whitacre College of Engineering</h2>
-          <h5>2012 - 2016</h5>
-          <h4 className="title">Bachelor of Science, Computer Engineering</h4>
-        </div>
-
+        <CardGroup>
+          <Card style={{ width: '100%', padding: '10px'}}>
+            <Card.Img variant="top" src={TTUBusinessLogo} />
+            <Card.Body>
+              <Card.Title>Texas Tech University</Card.Title>
+              {/* <Card.Subtitle>Rawls College of Business</Card.Subtitle> */}
+              <Card.Subtitle>Master of Business Administration - STEM</Card.Subtitle>
+              <Card.Text>Attended: 2016 to 2018</Card.Text>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: '100%', padding: '10px'}}>
+            <Card.Img variant="top" src={TTUEngineerLogo} />
+            <Card.Body>
+              <Card.Title>Texas Tech University</Card.Title>
+              {/* <Card.Subtitle>Whitacre College of Engineering</Card.Subtitle > */}
+              <Card.Subtitle>Bachelor of Science, Computer Engineering</Card.Subtitle>
+              <Card.Text>Attended: 2012 to 2016</Card.Text>
+              <Card.Footer>IEEE Region 5 west region paper contest <Button target="_blank" href="https://www.depts.ttu.edu/coe/departments/Newsletters/ECE/Fall2017students.php" variant="primary">Paper</Button>
+              </Card.Footer>
+            </Card.Body>
+          </Card>
+        </CardGroup>
       </div>
       
     </div>
