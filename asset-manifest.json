@@ -1,29 +1,28 @@
 {
   "files": {
     "main.css": "/jmamed-react/static/css/main.efd8d39f.chunk.css",
-    "main.js": "/jmamed-react/static/js/main.49981eed.chunk.js",
-    "main.js.map": "/jmamed-react/static/js/main.49981eed.chunk.js.map",
+    "main.js": "/jmamed-react/static/js/main.90de2ebf.chunk.js",
+    "main.js.map": "/jmamed-react/static/js/main.90de2ebf.chunk.js.map",
     "runtime-main.js": "/jmamed-react/static/js/runtime-main.4f20a034.js",
     "runtime-main.js.map": "/jmamed-react/static/js/runtime-main.4f20a034.js.map",
     "static/css/2.4f9f0b12.chunk.css": "/jmamed-react/static/css/2.4f9f0b12.chunk.css",
-    "static/js/2.2c556491.chunk.js": "/jmamed-react/static/js/2.2c556491.chunk.js",
-    "static/js/2.2c556491.chunk.js.map": "/jmamed-react/static/js/2.2c556491.chunk.js.map",
+    "static/js/2.73589d87.chunk.js": "/jmamed-react/static/js/2.73589d87.chunk.js",
+    "static/js/2.73589d87.chunk.js.map": "/jmamed-react/static/js/2.73589d87.chunk.js.map",
     "index.html": "/jmamed-react/index.html",
-    "precache-manifest.69e90998500bb53b87c2139358411c71.js": "/jmamed-react/precache-manifest.69e90998500bb53b87c2139358411c71.js",
+    "precache-manifest.eb8d6ada0f8a3903cf38a037af2e9574.js": "/jmamed-react/precache-manifest.eb8d6ada0f8a3903cf38a037af2e9574.js",
     "service-worker.js": "/jmamed-react/service-worker.js",
     "static/css/2.4f9f0b12.chunk.css.map": "/jmamed-react/static/css/2.4f9f0b12.chunk.css.map",
     "static/css/main.efd8d39f.chunk.css.map": "/jmamed-react/static/css/main.efd8d39f.chunk.css.map",
-    "static/js/2.2c556491.chunk.js.LICENSE.txt": "/jmamed-react/static/js/2.2c556491.chunk.js.LICENSE.txt",
+    "static/js/2.73589d87.chunk.js.LICENSE.txt": "/jmamed-react/static/js/2.73589d87.chunk.js.LICENSE.txt",
     "static/media/tftpenguin.jpg": "/jmamed-react/static/media/tftpenguin.c6e1a213.jpg",
     "static/media/ttu-bus-logo.png": "/jmamed-react/static/media/ttu-bus-logo.ea343315.png",
-    "static/media/ttu-eng-logo.png": "/jmamed-react/static/media/ttu-eng-logo.82d29fbc.png",
-    "static/media/ttu-logo.svg": "/jmamed-react/static/media/ttu-logo.5e37ceb5.svg"
+    "static/media/ttu-eng-logo.png": "/jmamed-react/static/media/ttu-eng-logo.82d29fbc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4f20a034.js",
     "static/css/2.4f9f0b12.chunk.css",
-    "static/js/2.2c556491.chunk.js",
+    "static/js/2.73589d87.chunk.js",
     "static/css/main.efd8d39f.chunk.css",
-    "static/js/main.49981eed.chunk.js"
+    "static/js/main.90de2ebf.chunk.js"
   ]
 }
