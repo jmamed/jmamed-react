@@ -153,6 +153,29 @@ h4 {
   align-content: center;
 }
 
+.registration-layout{
+  /* width: 50%; */
+  width: 100%;
+}
+
+.registration-container{
+  align-content: center;
+  width: 50%;
+  align-self: center;
+}
+
+.sandbox-container{
+  align-content: center;
+  display: flex;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 725px) {
+  .sandbox-container {
+    flex-wrap: wrap;
+  }
+}
+
 a.social {
   margin: 0 1rem;
   align-items: center;
@@ -215,4 +238,63 @@ span.separator {
 
 div.flex-child { /* generic flexbox child*/
   flex-grow: 1;
+}
+
+form.regForm{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+}
+div.regFormLayout{
+  text-align: center;
+}
+label.regLabel{
+  text-align: left;
+}
+.labelColumn{
+  display: flex;
+}
+
+.inputColumn{
+  display: flex;
+}
+
+button.btnCount{
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 725px) {
+  button.btnCount {
+    margin-bottom: 10px;
+  }
+}
+
+.count{
+  width: 100%;
+}
+
+
+/* change later */
+.messages{
+  display: flex;
+  justify-content: center;
+}
+ 
+.error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+ 
+.success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
 }

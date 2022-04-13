@@ -11,10 +11,20 @@ export const NavigationBar = () => (
       <Nav className="me-auto">
         <Nav.Item>
           <Nav.Link href="/jmamed-react/#/">Home</Nav.Link>
-        </Nav.Item> 
+        </Nav.Item>
         <Nav.Item>
           <Nav.Link href="/jmamed-react/#/tft">TFT Project Idea</Nav.Link>
         </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/jmamed-react/#/sandbox">Sandbox</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/jmamed-react/#/registration">Registration</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="/jmamed-react/#/signon">Sign On</Nav.Link>
+        </Nav.Item>
+        
         <a className="button" href="https://jmamed.github.io/jmamed/"><span><h4 className="webButton">Angular Website</h4></span></a>
       </Nav>
     </Navbar.Collapse>

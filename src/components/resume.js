@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardGroup, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Card, CardGroup} from "react-bootstrap";
 // import TTULogo from "../assets/ttu-logo.svg";
 import TTUBusinessLogo from "../assets/ttu-bus-logo.png";
 import TTUEngineerLogo from "../assets/ttu-eng-logo.png";
@@ -111,7 +111,7 @@ export default function ResumePage() {
               <Card.Subtitle>Bachelor of Science, Computer Engineering</Card.Subtitle>
               <Card.Text>Attended: 2012 to 2016</Card.Text>
               <Card.Footer>
-                <Card.Link href="https://www.depts.ttu.edu/coe/departments/Newsletters/ECE/Fall2017students.php">IEEE Region 5 West region paper contest</Card.Link>
+                <Card.Link href="https://www.depts.ttu.edu/coe/departments/Newsletters/ECE/Fall2017students.php" target="_blank">IEEE Region 5 West region paper contest</Card.Link>
               </Card.Footer>
             </Card.Body>
           </Card>

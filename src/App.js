@@ -3,6 +3,10 @@ import React from 'react';
 import './App.css'
 import SocialFollow from "./components/SocialFollow";
 import ResumePage from "./components/resume";
+import RegistrationPage from "./components/registration";
+import SignOnPage from "./components/signon";
+import Sandbox from "./components/sandbox";
+
 import { NavigationBar } from './navbar/NavigationBar';
 import { Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,6 +32,9 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={ResumePage} />
               <Route exact path="/tft" component={TFTHome} />
+              <Route exact path="/sandbox" component={Sandbox} />
+              <Route exact path="/registration" component={RegistrationPage} />
+              <Route exact path="/signon" component={SignOnPage} />
               <Route exact path="/tft/dummy" component={TFTHome} />
               <Route component={NoMatch} />
             </Switch>
