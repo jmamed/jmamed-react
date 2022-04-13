@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Button } from "react-bootstrap";
+import { Button, Modal} from "react-bootstrap";
 
 export default function SignOnPage() {
 
@@ -21,10 +21,15 @@ export default function SignOnPage() {
     setSubmitted(false);
   };
 
+  const[show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
   const handleFormSubmission = (e) => {
     e.preventDefault();//remove default js
     if(userName === '' || password === ''){
       setError(true);
+      handleShow();
       console.log("ERROR Please fill in fields");
     }
     else{
@@ -50,13 +55,21 @@ export default function SignOnPage() {
   //Show popup modal error if error
   const errorPopup = () => {
     return (
-      <div
-        className="error"
-        style={{
-          display: error ? '' : 'none',
-        }}>
-        <h1>Error</h1>
-      </div>
+      <Modal style={{display: error ? '' : 'none'}} show={show} onHide={handleClose} backdrop="static" keyboard={false}>
+        <Modal.Header closeButton>
+          <Modal.Title>Error Message</Modal.Title>
+        </Modal.Header>
+
+        <Modal.Body>
+          <p className="error">Please enter all mandatory fields - Try Again</p>
+        </Modal.Body>
+
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
   )};
 
   return (
@@ -69,11 +82,11 @@ export default function SignOnPage() {
         {successPopup()}
       </div>
         <form className="regForm">
-            <label className="regLabel">Username</label>
-            <input id="busAddress" value={userName} onChange={handleUserName}></input>
+            <label className="regLabel" htmlFor="username">Username</label>
+            <input id="username" value={userName} onChange={handleUserName}></input>
 
-            <label className="regLabel">Password</label>
-            <input id="busAddress" value={password} onChange={handlePassword}></input>
+            <label className="regLabel" htmlFor="password">Password</label>
+            <input id="password" name="password" value={password} onChange={handlePassword}></input>
 
             <span className="separator"></span>
 

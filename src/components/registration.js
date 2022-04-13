@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Modal} from "react-bootstrap";
 
 export default function RegistrationPage() {
   
@@ -62,6 +62,10 @@ export default function RegistrationPage() {
     setSubmitted(false);
   };
 
+  const[show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
   const handleFormSubmission = (e) => {
     e.preventDefault();//remove default js
     if(firstName === '' || lastName === '' || dob === '' || 
@@ -70,6 +74,7 @@ export default function RegistrationPage() {
         userName === '' || password === ''){
       //note middle initial is not required to submit
       setError(true);
+      handleShow();
       console.log("ERROR Please fill in all registration fields");
     }
     else{
@@ -95,15 +100,24 @@ export default function RegistrationPage() {
   //Show popup modal error if error
   const errorPopup = () => {
     return (
-      <div
-        className="error"
-        style={{
-          display: error ? '' : 'none',
-        }}>
-        <h1>Please enter all the fields</h1>
-      </div>
+      <Modal style={{display: error ? '' : 'none'}} show={show} onHide={handleClose} backdrop="static" keyboard={false}>
+        <Modal.Header closeButton>
+          <Modal.Title>Error Message</Modal.Title>
+        </Modal.Header>
+
+        <Modal.Body>
+          <p className="error">Please enter all mandatory fields - Try Again</p>
+        </Modal.Body>
+
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     );
   };
+
   
   
   return (
