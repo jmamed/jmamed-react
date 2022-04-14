@@ -24,7 +24,9 @@ export const NavigationBar = () => (
         <Nav.Item>
           <Nav.Link href="/jmamed-react/#/signon">Sign On</Nav.Link>
         </Nav.Item>
-        
+        <Nav.Item>
+          <Nav.Link href="https://github.com/jmamed">Github Repo</Nav.Link>
+        </Nav.Item>
         <a className="button" href="https://jmamed.github.io/jmamed/"><span><h4 className="webButton">Angular Website</h4></span></a>
       </Nav>
     </Navbar.Collapse>
